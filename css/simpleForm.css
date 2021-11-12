@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: tomato; 
+}
+body{
+    width: 600px;
+    margin: 30px auto;
+    padding: 0 20px 20px 20px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+   background-color: rgba(255, 255, 255, 0.75);
+   border-radius: 12px;
+   border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    font-weight: bold;
+    padding: 2opx;
+}
+
+
+/* form{
+    margin-top: 20px;
+} */
+ 
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label, input, button{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input{
+    flex:auto;
+}
+output{
+    font-size: 13px;
+}
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+button{
+    background-color: tomato; 
+    border:none;
+    border-radius: 10px;
+    position: relative;
+    left:45%;
+}
+@media only screen and (max-width:360px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    label{
+        width: 40%;
+        font-size: 14px;
+    }
+}
